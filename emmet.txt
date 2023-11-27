@@ -1,0 +1,40 @@
+Emmet permet de simplifier le dev et est basé la syntaxe sur CSS
+il existe une version pour css
+
+. pour nommer la classe
+exemple : div.nomdeclasse = <div class="nomdeclasse"></div>
+# pour ajouter un id
+exemple : div# = <div id="box"></div>
+{ pour titre ou un texte de lien
+exemple : a{titre de la balise = <a href="">titre de la balise</a>
+
+On peut utiliser un multiplicateur pour les lignes : *5
+exemple : ul>li*5 = j'aurai 5lignes de ul avec un li dedans
+
+> pour faire une balise dans une autre balise
++ pour des balises qui se suivent
+^remonte
+
+On peut aussi utilise comment en math les ()
+exemple :  (header>h1+h2)+(main>section*3)+(footer) 
+Ce qui donne :
+<header>
+    <h1></h1>
+    <h2></h2>
+</header>
+<main>
+    <section></section>
+    <section></section>
+    <section></section>
+</main>
+<footer></footer>
+
+si on a besoin de generer des chiffre qui se suivent dans un id ou autre, on peut utiliser $*3
+exemple : div#num$*3
+Ce qui donne : 
+    <div id="num1"></div>
+    <div id="num2"></div>
+    <div id="num3"></div>
+
+
+
