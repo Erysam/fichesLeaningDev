@@ -1,0 +1,37 @@
+
+sizeof($_FILES)
+array(3)
+
+ var_dump($_FILES);
+
+array(3) { 
+	["photo1"]=> array(6)
+		{ ["name"]=> array(1) { [0]=> string(12) "photoUNO.jpg" }
+		["full_path"]=> array(1) { [0]=> string(12) "photoUNO.jpg" } 
+		["type"]=> array(1) { [0]=> string(10) "image/jpeg" } 
+		["tmp_name"]=> array(1) { [0]=> string(45) "C:\Users\marys\AppData\Local\Temp\phpFF48.tmp" }
+		["error"]=> array(1) { [0]=> int(0) } 
+		["size"]=> array(1) { [0]=> int(52596) }
+ }
+
+ ["photo2"]=> array(6)
+	 { 	["name"]=> array(1) { [0]=> string(12) "photoDOS.png" }
+		["full_path"]=> array(1) { [0]=> string(12) "photoDOS.png" } 
+		["type"]=> array(1) { [0]=> string(9) "image/png" } 
+		["tmp_name"]=> array(1) { [0]=> string(45) "C:\Users\marys\AppData\Local\Temp\phpFF49.tmp" } 
+		["error"]=> array(1) { [0]=> int(0) } 
+		["size"]=> array(1) { [0]=> int(262915) }
+
+
+ } 
+["photo3"]=> array(6) {
+		["name"]=> array(1) { [0]=> string(13) "photoTRES.jpg" } 
+		["full_path"]=> array(1) { [0]=> string(13) "photoTRES.jpg" } 
+		["type"]=> array(1) { [0]=> string(10) "image/jpeg" } 
+		["tmp_name"]=> array(1) { [0]=> string(45) "C:\Users\marys\AppData\Local\Temp\phpFF59.tmp" } 
+		["error"]=> array(1) { [0]=> int(0) } 
+		["size"]=> array(1) { [0]=> int(68596) } 
+} 
+} 
+
+string(5) "i = 0" string(12) "compteur = 1" string(25) "nomFichier = photoUNO.jpg" string(13) "EXTENSION jpg" string(37) "UNIQFILE : photo1be8341a36ad05670.jpg" string(50) "TMP :C:\Users\marys\AppData\Local\Temp\phpFF48.tmp" string(5) "i = 1" string(12) "
