@@ -1,0 +1,5 @@
+Voici la décomposition des notations de navigation de fichier :
+
+    . représente le répertoire courant.
+    .. représente le répertoire parent (le répertoire qui contient le répertoire courant).
+    / est le séparateur de répertoires (utilisé sur les systèmes Unix/Linux/macOS, tandis que sur Windows, on utilise \).
